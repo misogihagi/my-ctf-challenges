@@ -10,7 +10,7 @@ flags:
   - CTF{HiddenMetadataFlag}
 type: standard
 files:
-  - secret_image.png
+  - secret_image.jpg
 hints:
   - "exiftool を使ってメタデータを調べてみよう。"
   - "ステガノグラフィーツールで解析してみよう。"
