@@ -1,0 +1,16 @@
+name: Hidden Image Flag
+author: misogihagi
+category: Forensics
+description: |
+  以下の画像の中にフラグが隠されています。
+  見つけ出して提出しましょう！
+  ヒント: 画像のメタデータやステガノグラフィーの技術を調べてみよう。
+value: 200
+flags:
+  - CTF{HiddenMetadataFlag}
+type: standard
+files:
+  - secret_image.png
+hints:
+  - "exiftool を使ってメタデータを調べてみよう。"
+  - "ステガノグラフィーツールで解析してみよう。"

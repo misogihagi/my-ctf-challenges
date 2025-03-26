@@ -1,0 +1,15 @@
+name: Secret Page
+author: misogihagi
+category: Web
+description: |
+  あるWebサイトに隠された秘密のページがあります。
+  そのページにアクセスするとフラグが表示されます。
+  URLを見つけてフラグを手に入れましょう！
+  ヒント: robots.txt を確認してみよう。
+value: 100
+flags:
+  - CTF{hidden_webpage}
+type: standard
+files: []
+hints:
+  - "robots.txt を確認してみよう。"

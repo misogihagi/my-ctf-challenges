@@ -1,0 +1,15 @@
+name: Simple Crypto
+author: misogihagi
+category: Crypto
+description: |
+  以下の暗号文を解読して、フラグを手に入れましょう！
+  ```
+  U2VjdXJpdHlJc0ltcG9ydGFudCE=
+  ```
+value: 150
+flags:
+- CTF{SecurityIsImportant!}
+type: standard
+files: []
+hints:
+- "Base64 をデコードしてみよう。"
